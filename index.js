@@ -1,5 +1,5 @@
 const services = {
-  plex: 32400,
+  plex: "32400/web",
   transmission: 9091,
   radarr: 7878,
   jackett: 9117,
