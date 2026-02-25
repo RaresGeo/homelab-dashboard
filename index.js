@@ -5,7 +5,8 @@ const services = {
     jackett: 9117,
     bazarr: 6767,
     minIO: 9001,
-    finances: "/finance/"
+    finances: "/finance/",
+    copyparty: 3923
 };
 
 const hostname = window.location.hostname;  // nixos.local or nixos.xxx.ts.net
