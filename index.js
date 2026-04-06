@@ -1,5 +1,6 @@
 const services = [
     "plex",
+    "jellyfin",
     "transmission",
     "radarr",
     "jackett",
