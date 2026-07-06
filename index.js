@@ -7,7 +7,8 @@ const services = [
     "bazarr",
     "minio",
     "finance",
-    "copyparty"
+    "copyparty",
+    "tierlists"
 ];
 
 const hostname = window.location.hostname; // kryllix.dedyn.io or nixos.local etc.
