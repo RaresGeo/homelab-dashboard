@@ -61,3 +61,20 @@ a {
 a:hover {
     color: var(--turquoise-surf);
 }
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--pacific-blue);
+    font-size: 0.85rem;
+    color: var(--cool-steel);
+}
+
+footer a {
+    color: var(--cool-steel);
+}
+
+footer span {
+    margin: 0 0.5rem;
+    color: var(--pacific-blue);
+}
