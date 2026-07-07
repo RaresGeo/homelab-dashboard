@@ -1,63 +1,63 @@
-body {
+:root {
     --ink-black: #071013;
     --turquoise-surf: #23b5d3;
     --pacific-blue: #75abbc;
     --cool-steel: #a2aebb;
     --alabaster-grey: #dfe0e2;
+}
 
+body {
     margin: 0;
     padding: 0;
     background: var(--ink-black);
-    font-family: system-ui, -apple-system, sans-serif;
+    color: var(--alabaster-grey);
+    font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", Menlo, Consolas, monospace;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 4rem;
+    min-height: 100vh;
 }
 
 h1 {
-    padding: 32px;
-    background: var(--turquoise-surf);
-    color: var(--ink-black);
-    margin: 0;
-    text-align: center;
-    font-size: 2em;
+    margin: 0 0 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--turquoise-surf);
+    border-bottom: 1px solid var(--pacific-blue);
+}
+
+h2 {
+    margin: 2rem 0 0.5rem;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: var(--cool-steel);
 }
 
 ul {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 5%;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    list-style: none;
-    flex-wrap: wrap;
-    gap: 16px;
+    margin: 0;
+    padding-left: 1.5rem;
+    list-style: square;
 }
 
-@media (max-width: 800px) {
-    ul {
-        flex-direction: column;
-    }
+li {
+    margin: 0.25rem 0;
 }
 
-
-ul a {
-    display: inline-block;
-    padding: 16px 32px;
-    background: var(--alabaster-grey);
-    text-decoration: none;
-    color: var(--ink-black);
-    font-weight: bold;
-    font-size: 18px;
-    border: solid 2px var(--pacific-blue);
-    border-radius: 4px;
-    transition: all 0.2s ease;
+li::marker {
+    color: var(--pacific-blue);
 }
 
-ul a:hover {
-    background: var(--turquoise-surf);
+a {
     color: var(--alabaster-grey);
-    border-color: var(--turquoise-surf);
-    transform: translateY(-2px);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.15s ease;
+}
+
+a:hover {
+    color: var(--turquoise-surf);
 }
