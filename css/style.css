@@ -78,3 +78,13 @@ footer span {
     margin: 0 0.5rem;
     color: var(--pacific-blue);
 }
+
+li span {
+    margin: 0 0.5rem;
+    color: var(--pacific-blue);
+}
+
+li a:last-of-type:not(:first-of-type) {
+    font-size: 0.85rem;
+    color: var(--cool-steel);
+}
