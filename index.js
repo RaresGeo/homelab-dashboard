@@ -2,6 +2,7 @@ const privateServices = [
     "plex",
     "transmission",
     "radarr",
+    "sonarr",
     "jackett",
     "bazarr",
     "minio",
