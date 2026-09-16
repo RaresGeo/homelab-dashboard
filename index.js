@@ -12,6 +12,8 @@ const privateServices = [
 
 const publicServices = [
     { name: "tierlists", source: "https://github.com/RaresGeo/LaravelTierlist" },
+    { name: "digitalhub", },
+    { name: "digitalhub-cms", },
 ];
 
 const hostname = window.location.hostname;
